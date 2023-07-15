@@ -65,7 +65,7 @@ return(
     
 
             {error && <div className= "error">{error}</div>}
-            {success & <div className = "success">{success}</div>}
+            {success && <div className = "success">{success}</div>}
             <button className="btn" onClick={handelSignup}>Create Account</button>
         </div>
 
